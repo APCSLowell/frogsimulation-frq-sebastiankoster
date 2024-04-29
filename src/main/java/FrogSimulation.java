@@ -21,6 +21,7 @@ public class FrogSimulation
 		pos += hopDistance();
 	        hops++;
 		}
+	return pos>=goalDistance;
 
 	}
 	
